@@ -1,0 +1,71 @@
+.done{color: #00FF00;}
+.done:after{content: "\2713";}
+
+body, html
+{
+	background-color: #999999;
+	color: #000000;
+	font-family: monospace;
+	padding: 0px;
+	margin: 0px;
+}
+
+.content
+{
+	position: relative;
+	top: 20px;
+	width: 600px;
+	border: 2px solid #696969;
+	border-top: 2px solid #CCCCCC;
+	border-left: 2px solid #CCCCCC;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+}
+
+.btn, .btn:visited
+{
+	display: block;
+	text-decoration: none;
+	position: relative;
+	min-height: 40px;
+	border: 2px solid #696969;
+	border-top: 2px solid #CCCCCC;
+	border-left: 2px solid #CCCCCC;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+}
+
+.btn:hover
+{
+	background-color: #696969;
+	border: 2px solid #333333;
+	border-right: 2px solid #999999;
+	border-bottom: 2px solid #999999;
+	color: #FFAA00;
+}
+
+.l1 {width: 485px;}
+.l2 {width: 60px;}
+.l3 {width: 580px;}
+
+/* no border at all */
+.nb {border: 0px;}
+tr, td
+{
+	border-bottom: 1px solid #0000AA;
+}
+
+a, a:visited
+{
+	color: #0000FF;
+	text-decoration:none;
+}
+
+table
+{
+	margin: 0 auto;
+	text-align: left;
+}
+
