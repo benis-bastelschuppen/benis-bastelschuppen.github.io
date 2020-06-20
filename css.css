@@ -1,4 +1,9 @@
-.done{color: #00FF00;}
+.done
+{
+	color: #00FF00;
+	font-weight: bolder;
+	font-size: 20pt;
+}
 .done:after{content: "\2713";}
 
 body, html
@@ -62,6 +67,9 @@ a, a:visited
 	color: #0000FF;
 	text-decoration:none;
 }
+
+a:hover
+{color: #FFFF00; background-color: #0000FF;}
 
 table
 {
